@@ -8,7 +8,7 @@ int Max = a;
 
 if(b>a)
 {
-Max = b;  //Console.Write($"{number} больше чем {number1}");
+Max = b;  
 }
 if(c>Max)
 {
@@ -19,7 +19,3 @@ Console.Write($" наибольшее число из трех введеных 
 
 
 
-// else
-// {
-// Console.Write($"{number1} больше чем {number}"); 
-// }
