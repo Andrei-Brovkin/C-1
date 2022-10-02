@@ -1,7 +1,15 @@
-﻿int num = 123456789;
-int counter = 0;
-int i = num / 10;
-while (counter >999)
+﻿ 
+Console.WriteLine("Введите второе число ");
+int umm = Convert.ToInt32(Console.ReadLine());
+
+int Method(int numm)
 {
-   if(num>1000000000000 ? num/10 : i);
+      int sum = default;
+
+      for (int i = 999; i < umm; i++)
+      {
+     sum = umm / 10;
+      }
+      return sum % 10;
 }
+Console.WriteLine(Method (umm));
